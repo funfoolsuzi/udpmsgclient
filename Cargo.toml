@@ -1,0 +1,7 @@
+[package]
+name = "udpmsgclient"
+version = "0.1.0"
+authors = ["xiwenli"]
+edition = "2018"
+
+[dependencies]
