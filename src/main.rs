@@ -9,10 +9,10 @@ use std::str;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let origin = "127.0.0.1:".to_owned() + &args[1];
+    let origin = &args[1];
     let destination = &args[2];
 
-    println!("starting chat between 127.0.0.1:{} and {}", origin, destination);
+    println!("starting chat between {} and {}", origin, destination);
     
     chat(&origin, destination);
 }

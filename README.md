@@ -9,7 +9,7 @@ make build
 
 ### Use
 ```
-./udpmsgclient {origin_port} {destination_address}
+./udpmsgclient {origin_address} {destination_address}
 ```
 
 ### TODOs
